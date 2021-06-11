@@ -11,7 +11,7 @@ function save_chamber(id, side){
 				for(var j = 0; j < 32 * 10; j += 32) {
 					var inst = instance_position(global.leftChamberX + j, global.leftChamberY + i, all);
 				
-					if (inst != noone) {
+					if (inst != noone and inst.object_index != obj_Player) {
 					instance_create_layer(j, i + id * 10 * 32, "Instances", inst.object_index);
 					}
 				
@@ -27,7 +27,7 @@ function save_chamber(id, side){
 			for(var j = 32; j < 32 * 11; j += 32) {
 				var inst = instance_position(global.rightChamberX + j, global.rightChamberY + i, all);
 				
-				if (inst != noone) {
+				if (inst != noone and inst.object_index != obj_Player) {
 					instance_create_layer(j, i + id * 10 * 32, "Instances", inst.object_index);
 				}
 				
