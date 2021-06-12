@@ -8,9 +8,14 @@ global.rightChamberY = 320;
 global.leftChamberId = -1;
 global.rightChamberId = -1;
 
+startRightChamber = 0;
+startLeftChamber = 1;
+
+winConditionRight = 5;
+winConditionLeft = 5;
 
 
 
-load_chamber(1, -1);
 
-load_chamber(1, 1);
+load_chamber(startRightChamber, 1);
+load_chamber(startLeftChamber, -1);
