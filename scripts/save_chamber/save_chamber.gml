@@ -13,10 +13,11 @@ function save_chamber(id, side){
 				
 					if (inst != noone and inst.object_index != obj_Player) {
 					instance_create_layer(j, i + id * 10 * 32, "Instances", inst.object_index);
-					}
+					
 				
 					with(inst) {
 						instance_destroy();
+					}
 					}
 				}
 		
@@ -29,10 +30,11 @@ function save_chamber(id, side){
 				
 				if (inst != noone and inst.object_index != obj_Player) {
 					instance_create_layer(j, i + id * 10 * 32, "Instances", inst.object_index);
-				}
+				
 				
 				with(inst) {
 					instance_destroy();
+				}
 				}
 			}
 		

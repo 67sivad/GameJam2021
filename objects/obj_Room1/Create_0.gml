@@ -10,7 +10,7 @@ global.rightChamberId = -1;
 
 
 
-load_chamber(0, -1);
+
+load_chamber(1, -1);
+
 load_chamber(1, 1);
-
-
