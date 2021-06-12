@@ -1,12 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
+global.leftChamberId = -2;
+global.rightChamberId = -1;
 
-
-startRightChamber = 2;
-startLeftChamber = 0;
+startRightChamber = 0;
+startLeftChamber = 1;
 
 winConditionRight = 1;
-winConditionLeft = 3;
+winConditionLeft = 0;
 
 
 
