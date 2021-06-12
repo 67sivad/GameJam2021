@@ -22,7 +22,7 @@ function load_chamber(id, side){
 							o.sprite_index = inst.sprite_index;
 							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
 						}
-						if (inst.object_index == obj_wire or inst.object_index == obj_button) {
+						if (inst.object_index == obj_wire or inst.object_index == obj_button or inst.object_index == obj_wall_trigger) {
 								o.current = inst.current;
 							
 							}
@@ -49,7 +49,7 @@ function load_chamber(id, side){
 							o.sprite_index = inst.sprite_index;
 							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
 						}
-						if (inst.object_index == obj_wire or inst.object_index == obj_button) {
+						if (inst.object_index == obj_wire or inst.object_index == obj_button or inst.object_index == obj_wall_trigger) {
 								o.current = inst.current;
 							
 							}
@@ -76,7 +76,7 @@ function load_chamber(id, side){
 							o.sprite_index = inst.sprite_index;
 							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
 						}
-						if (inst.object_index == obj_wire or inst.object_index == obj_button) {
+						if (inst.object_index == obj_wire or inst.object_index == obj_button or inst.object_index == obj_wall_trigger) {
 								o.current = inst.current;
 							
 							}
@@ -105,7 +105,7 @@ function load_chamber(id, side){
 							o.sprite_index = inst.sprite_index;
 							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
 						}
-						if (inst.object_index == obj_wire or inst.object_index == obj_button) {
+						if (inst.object_index == obj_wire or inst.object_index == obj_button or inst.object_index == obj_wall_trigger) {
 								o.current = inst.current;
 							
 							}
