@@ -20,6 +20,7 @@ function save_chamber(id, side){
 						var wire = instance_position(global.leftChamberX + j, global.leftChamberY + i, obj_wire);
 						if (wire != noone) {
 							var o = instance_create_layer(j, i + id * 10 * 32, "Instances", wire.object_index);
+							o.current = wire.current;
 							with(wire) {
 								instance_destroy();
 							}
@@ -61,6 +62,7 @@ function save_chamber(id, side){
 						var wire = instance_position(global.rightChamberX + j, global.rightChamberY + i, obj_wire);
 						if (wire != noone) {
 							var o = instance_create_layer(j, i + id * 10 * 32, "Instances", wire.object_index);
+							o.current = wire.current;
 							with(wire) {
 								instance_destroy();
 							}

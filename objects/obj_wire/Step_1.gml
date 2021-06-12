@@ -15,3 +15,5 @@ for (var i = 0; i < len; i++) {
 		}
 	}
 }
+
+ds_list_destroy(wires);
