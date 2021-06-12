@@ -11,10 +11,14 @@ function load_chamber(id, side){
 				for(var j = 0; j < 32 * 10; j += 32) {
 					
 					if (global.leftChamberId != global.rightChamberId) {
+						
 						var inst = instance_position(j, i + id * 10 * 32, all);
 				
 						if (inst != noone and inst.object_index != obj_Player) {
 							
+								
+						
+									
 						var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "Instances", inst.object_index);
 						if (object_get_name(inst.object_index) == "obj_door") {
 							o.destination = inst.destination;
@@ -59,6 +63,7 @@ function load_chamber(id, side){
 				}
 		
 			}
+				
 	} else {
 		global.rightChamberId = id;
 		for(i = 0; i < 10 * 32; i += 32) {
