@@ -230,7 +230,6 @@
   "creationCodeFile": "${project_dir}/rooms/Room1/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_616A8368","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_69CA95C1","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7A46BDB7","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_55BE1344","path":"rooms/Room1/Room1.yy",},
@@ -434,6 +433,7 @@
     {"name":"inst_67CC9F45","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_57D7E17D","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4B7AFB19","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_616A8368","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

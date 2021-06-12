@@ -34,7 +34,13 @@ function save_chamber(id, side){
 				var inst = instance_position(global.rightChamberX + j, global.rightChamberY + i, all);
 				
 				if (inst != noone and inst.object_index != obj_Player) {
-					instance_create_layer(j, i + id * 10 * 32, "Instances", inst.object_index);
+					var o = instance_create_layer(j, i + id * 10 * 32, "Instances", inst.object_index);
+					if (object_get_name(inst.object_index) == "obj_door") {
+							o.destination = inst.destination;
+							o.orientation = inst.orientation;
+							o.sprite_index = inst.sprite_index;
+							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
+						}
 				
 				
 				with(inst) {
