@@ -11,8 +11,8 @@ global.rightChamberId = -1;
 startRightChamber = 1;
 startLeftChamber = 1;
 
-winConditionRight = 0;
-winConditionLeft = 2;
+winConditionRight = 2;
+winConditionLeft = 0;
 
 
 
