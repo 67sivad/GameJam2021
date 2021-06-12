@@ -10,7 +10,7 @@ winConditionRight = 5;
 winConditionLeft = 4;
 
 
-
+win=false;
 
 load_chamber(startRightChamber, 1);
 load_chamber(startLeftChamber, -1);
