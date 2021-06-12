@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_ring",
-    "path": "sprites/spr_ring/spr_ring.yy",
+    "name": "spr_ring_flip",
+    "path": "sprites/spr_ring_flip/spr_ring_flip.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,12 +20,8 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
-  "properties": [
-    {"varType":0,"value":"180","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"image_angle","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "eventList": [],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",

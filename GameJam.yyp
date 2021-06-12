@@ -19,6 +19,7 @@
     {"id":{"name":"obj_Room2","path":"objects/obj_Room2/obj_Room2.yy",},"order":1,},
     {"id":{"name":"obj_Level3","path":"objects/obj_Level3/obj_Level3.yy",},"order":2,},
     {"id":{"name":"LevelTwo","path":"rooms/LevelTwo/LevelTwo.yy",},"order":4,},
+    {"id":{"name":"spr_ring_flip","path":"sprites/spr_ring_flip/spr_ring_flip.yy",},"order":11,},
     {"id":{"name":"spr_door_vert","path":"sprites/spr_door_vert/spr_door_vert.yy",},"order":5,},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"order":10,},
     {"id":{"name":"obj_Level4","path":"objects/obj_Level4/obj_Level4.yy",},"order":9,},
