@@ -10,13 +10,32 @@ if (x < 928) {
 	load_chamber(destination, 1);
 }
 if (orientation == "up") {
+	var doorx = x;
 	var doory = y;
 	with (other) {
+		x = doorx;
 		y = doory + (8 * 32);
 	}
-} else {
-	//show_debug_message(orientation);
+} else if (orientation == "down") {
+	var doorx = x;
+	var doory = y;
 	with (other) {
-		instance_destroy();
+		x = doorx;
+		y = doory - (8 * 32);
+	}
+} else if (orientation == "left") {
+	var doorx = x;
+	var doory = y;
+	with(other) {
+		x = doorx + (8 * 32);
+		y = doory;
+	}
+} else {
+	var doorx = x;
+	var doory = y;
+	with (other) {
+		x = doorx - (8 * 32);
+		y = doory;
 	}
 }
+		

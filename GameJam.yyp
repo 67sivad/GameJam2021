@@ -16,7 +16,7 @@
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":0,},
     {"id":{"name":"load_chamber","path":"scripts/load_chamber/load_chamber.yy",},"order":0,},
     {"id":{"name":"save_chamber","path":"scripts/save_chamber/save_chamber.yy",},"order":1,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"LevelThree","path":"rooms/LevelThree/LevelThree.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Android","path":"options/android/options_android.yy",},
@@ -36,7 +36,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"LevelThree","path":"rooms/LevelThree/LevelThree.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
