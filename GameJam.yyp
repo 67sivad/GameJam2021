@@ -1,8 +1,8 @@
-
 {
   "resources": [
     {"id":{"name":"obj_Level2","path":"objects/obj_Level2/obj_Level2.yy",},"order":7,},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},"order":0,},
+    {"id":{"name":"LevelFive","path":"rooms/LevelFive/LevelFive.yy",},"order":6,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":3,},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},"order":6,},
     {"id":{"name":"spr_wire_unlit","path":"sprites/spr_wire_unlit/spr_wire_unlit.yy",},"order":7,},
@@ -13,6 +13,7 @@
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":1,},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"order":4,},
     {"id":{"name":"obj_Level1","path":"objects/obj_Level1/obj_Level1.yy",},"order":8,},
+    {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},"order":9,},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},"order":6,},
     {"id":{"name":"obj_Room2","path":"objects/obj_Room2/obj_Room2.yy",},"order":1,},
     {"id":{"name":"obj_Level3","path":"objects/obj_Level3/obj_Level3.yy",},"order":2,},
@@ -31,7 +32,11 @@
     {"id":{"name":"spr_wire_lit","path":"sprites/spr_wire_lit/spr_wire_lit.yy",},"order":8,},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":12,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":0,},
+    {"id":{"name":"obj_Level5","path":"objects/obj_Level5/obj_Level5.yy",},"order":11,},
+    {"id":{"name":"column_check","path":"scripts/column_check/column_check.yy",},"order":2,},
+    {"id":{"name":"spr_column","path":"sprites/spr_column/spr_column.yy",},"order":6,},
     {"id":{"name":"load_chamber","path":"scripts/load_chamber/load_chamber.yy",},"order":0,},
+    {"id":{"name":"obj_column","path":"objects/obj_column/obj_column.yy",},"order":10,},
     {"id":{"name":"save_chamber","path":"scripts/save_chamber/save_chamber.yy",},"order":1,},
     {"id":{"name":"LevelThree","path":"rooms/LevelThree/LevelThree.yy",},"order":0,},
   ],
@@ -54,6 +59,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
+    {"roomId":{"name":"LevelFive","path":"rooms/LevelFive/LevelFive.yy",},},
     {"roomId":{"name":"LevelOne","path":"rooms/LevelOne/LevelOne.yy",},},
     {"roomId":{"name":"LevelTwo","path":"rooms/LevelTwo/LevelTwo.yy",},},
     {"roomId":{"name":"LevelThree","path":"rooms/LevelThree/LevelThree.yy",},},
