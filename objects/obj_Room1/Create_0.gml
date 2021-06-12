@@ -5,7 +5,7 @@ global.leftChamberY = 320;
 global.rightChamberX = 928;
 global.rightChamberY = 320;
 
-global.leftChamberId = -1;
+global.leftChamberId = -2;
 global.rightChamberId = -1;
 
 startRightChamber = 0;

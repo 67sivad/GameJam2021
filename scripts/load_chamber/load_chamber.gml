@@ -9,15 +9,18 @@ function load_chamber(id, side){
 		global.leftChamberId = id;
 			for(i = 0; i < 10 * 32; i += 32) {
 				for(var j = 0; j < 32 * 10; j += 32) {
+					
 					if (global.leftChamberId != global.rightChamberId) {
 						var inst = instance_position(j, i + id * 10 * 32, all);
 				
 						if (inst != noone and inst.object_index != obj_Player) {
+							
 						var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "Instances", inst.object_index);
-						if (inst.object_index == obj_door) {
+						if (object_get_name(inst.object_index) == "obj_door") {
 							o.destination = inst.destination;
 							o.orientation = inst.orientation;
 							o.sprite_index = inst.sprite_index;
+							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
 						}
 						}
 				
@@ -47,9 +50,17 @@ function load_chamber(id, side){
 			for(var j = 32; j < 32 * 11; j += 32) {
 				if (global.leftChamberId != global.rightChamberId) {
 					var inst = instance_position(j, i + id * 10 * 32, all);
+					//show_debug_message(string(inst.destination))
 				
 					if (inst != noone and inst.object_index != obj_Player) {
-					instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "Instances", inst.object_index);
+					var o = instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "Instances", inst.object_index);
+					if (object_get_name(inst.object_index) == "obj_door") {
+						//show_debug_message(object_get_name(inst.object_index));
+							o.destination = inst.destination;
+							o.orientation = inst.orientation;
+							o.sprite_index = inst.sprite_index;
+							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
+						}
 					}
 				
 					with(inst) {
