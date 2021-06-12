@@ -3,8 +3,8 @@
 global.leftChamberId = -1
 global.rightChamberId = 0
 
-startLeftChamber = 0
-startRightChamber = 1
+startLeftChamber = 4
+startRightChamber = 0
 
 load_chamber(startRightChamber, 1)
 load_chamber(startLeftChamber, -1)
