@@ -9,6 +9,22 @@ function save_chamber(id, side){
 		
 			for(i = 0; i < 10 * 32; i += 32) {
 				for(var j = 0; j < 32 * 10; j += 32) {
+					var block = instance_position(global.leftChamberX + j, global.leftChamberY + i, obj_block);
+						if (block != noone) {
+							var o = instance_create_layer(j, i + id * 10 * 32, "Instances", block.object_index);
+							with(block) {
+								instance_destroy();
+							}
+						}
+						
+						var wire = instance_position(global.leftChamberX + j, global.leftChamberY + i, obj_wire);
+						if (wire != noone) {
+							var o = instance_create_layer(j, i + id * 10 * 32, "Instances", wire.object_index);
+							o.current = wire.current;
+							with(wire) {
+								instance_destroy();
+							}
+						}
 					var inst = instance_position(global.leftChamberX + j, global.leftChamberY + i, all);
 				
 					if (inst != noone and inst.object_index != obj_Player) {
@@ -21,7 +37,7 @@ function save_chamber(id, side){
 							o.image_index=inst.image_index;
 							
 						}
-						if (inst.object_index == obj_wire or inst.object_index == obj_button) {
+						if (inst.object_index == obj_wire or inst.object_index == obj_button or inst.object_index == obj_wall_trigger) {
 								o.current = inst.current;
 							
 							}
@@ -39,6 +55,21 @@ function save_chamber(id, side){
 	} else {
 		for(i = 0; i < 10 * 32; i += 32) {
 			for(var j = 32; j < 32 * 11; j += 32) {
+				var block = instance_position(global.rightChamberX + j, global.rightChamberY + i, obj_block);
+						if (block != noone) {
+							var o = instance_create_layer(j, i + id * 10 * 32, "Instances", block.object_index);
+							with(block) {
+								instance_destroy();
+							}
+						}
+						var wire = instance_position(global.rightChamberX + j, global.rightChamberY + i, obj_wire);
+						if (wire != noone) {
+							var o = instance_create_layer(j, i + id * 10 * 32, "Instances", wire.object_index);
+							o.current = wire.current;
+							with(wire) {
+								instance_destroy();
+							}
+						}
 				var inst = instance_position(global.rightChamberX + j, global.rightChamberY + i, all);
 				
 				if (inst != noone and inst.object_index != obj_Player) {
@@ -51,7 +82,7 @@ function save_chamber(id, side){
 						}else if(object_get_name(inst.object_index) == "obj_floor"){
 							o.image_index=inst.image_index;
 						}
-					if (inst.object_index == obj_wire or inst.object_index == obj_button) {
+					if (inst.object_index == obj_wire or inst.object_index == obj_button or inst.object_index == obj_wall_trigger) {
 								o.current = inst.current;
 							
 							}
