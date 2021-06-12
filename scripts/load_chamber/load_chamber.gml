@@ -105,11 +105,7 @@ function load_chamber(id, side){
 	}
 	
 		}
-		if (instance_position(global.leftChamberX+9*32, global.leftChamberY+4*32, obj_column) != noone) {
-				column_check(-1, global.rightChamberId == global.leftChamberId);
-			}
-	if (instance_position(global.rightChamberX, global.rightChamberY+4*32, obj_column) != noone) {
-				column_check(1, global.rightChamberId == global.leftChamberId);
-			}
+		column_check(-1, global.leftChamberId == global.rightChamberId)
+		column_check(1, global.leftChamberId == global.rightChamberId)
 	
 }
