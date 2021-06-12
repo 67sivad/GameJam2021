@@ -3,6 +3,7 @@
     {"id":{"name":"obj_Level2","path":"objects/obj_Level2/obj_Level2.yy",},"order":7,},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},"order":0,},
     {"id":{"name":"LevelFive","path":"rooms/LevelFive/LevelFive.yy",},"order":6,},
+    {"id":{"name":"obj_ring_right","path":"objects/obj_ring_right/obj_ring_right.yy",},"order":14,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":3,},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},"order":6,},
     {"id":{"name":"spr_wire_unlit","path":"sprites/spr_wire_unlit/spr_wire_unlit.yy",},"order":7,},
