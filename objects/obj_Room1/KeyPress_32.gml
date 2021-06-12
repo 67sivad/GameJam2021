@@ -9,3 +9,6 @@ with(all){
 		}
 	}
 }
+
+save_chamber(global.leftChamberId, -1);
+save_chamber(global.rightChamberId, 1);
