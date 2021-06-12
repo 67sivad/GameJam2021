@@ -17,6 +17,9 @@ function save_chamber(id, side){
 							o.destination = inst.destination;
 							o.orientation = inst.orientation;
 							o.sprite_index = inst.sprite_index;
+						}else if(inst.object_index == obj_floor){
+							o.image_index=inst.image_index;
+							
 						}
 						if (inst.object_index == obj_wire or inst.object_index == obj_button) {
 								o.current = inst.current;
@@ -45,6 +48,8 @@ function save_chamber(id, side){
 							o.orientation = inst.orientation;
 							o.sprite_index = inst.sprite_index;
 							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
+						}else if(object_get_name(inst.object_index) == "obj_floor"){
+							o.image_index=inst.image_index;
 						}
 					if (inst.object_index == obj_wire or inst.object_index == obj_button) {
 								o.current = inst.current;
