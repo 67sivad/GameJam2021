@@ -11,10 +11,14 @@ function load_chamber(id, side){
 				for(var j = 0; j < 32 * 10; j += 32) {
 					
 					if (global.leftChamberId != global.rightChamberId) {
+						
 						var inst = instance_position(j, i + id * 10 * 32, all);
 				
 						if (inst != noone and inst.object_index != obj_Player) {
 							
+								
+						
+									
 						var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "Instances", inst.object_index);
 						if (object_get_name(inst.object_index) == "obj_door") {
 							o.destination = inst.destination;
@@ -22,7 +26,7 @@ function load_chamber(id, side){
 							o.sprite_index = inst.sprite_index;
 							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
 						}
-						if (inst.object_index == obj_wire or inst.object_index == obj_button) {
+						if (inst.object_index == obj_wire or inst.object_index == obj_button or inst.object_index == obj_wall_trigger) {
 								o.current = inst.current;
 							
 							}
@@ -49,7 +53,7 @@ function load_chamber(id, side){
 							o.sprite_index = inst.sprite_index;
 							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
 						}
-						if (inst.object_index == obj_wire or inst.object_index == obj_button) {
+						if (inst.object_index == obj_wire or inst.object_index == obj_button or inst.object_index == obj_wall_trigger) {
 								o.current = inst.current;
 							
 							}
@@ -59,6 +63,8 @@ function load_chamber(id, side){
 				}
 		
 			}
+			
+				
 	} else {
 		global.rightChamberId = id;
 		for(i = 0; i < 10 * 32; i += 32) {
@@ -76,7 +82,7 @@ function load_chamber(id, side){
 							o.sprite_index = inst.sprite_index;
 							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
 						}
-						if (inst.object_index == obj_wire or inst.object_index == obj_button) {
+						if (inst.object_index == obj_wire or inst.object_index == obj_button or inst.object_index == obj_wall_trigger) {
 								o.current = inst.current;
 							
 							}
@@ -105,7 +111,7 @@ function load_chamber(id, side){
 							o.sprite_index = inst.sprite_index;
 							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
 						}
-						if (inst.object_index == obj_wire or inst.object_index == obj_button) {
+						if (inst.object_index == obj_wire or inst.object_index == obj_button or inst.object_index == obj_wall_trigger) {
 								o.current = inst.current;
 							
 							}
@@ -114,7 +120,14 @@ function load_chamber(id, side){
 					}
 			}
 		
-		}
 	}
+	
+		}
+		if (instance_position(global.leftChamberX+9*32, global.leftChamberY+4*32, obj_column) != noone) {
+				column_check(-1, global.rightChamberId == global.leftChamberId);
+			}
+	if (instance_position(global.rightChamberX, global.rightChamberY+4*32, obj_column) != noone) {
+				column_check(1, global.rightChamberId == global.leftChamberId);
+			}
 	
 }
