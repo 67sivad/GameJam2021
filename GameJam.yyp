@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"obj_Level2","path":"objects/obj_Level2/obj_Level2.yy",},"order":7,},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},"order":0,},
+    {"id":{"name":"LevelFive","path":"rooms/LevelFive/LevelFive.yy",},"order":6,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":3,},
     {"id":{"name":"spr_door_horiz","path":"sprites/spr_door_horiz/spr_door_horiz.yy",},"order":4,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":3,},
@@ -21,7 +22,11 @@
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":5,},
     {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},"order":7,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":0,},
+    {"id":{"name":"obj_Level5","path":"objects/obj_Level5/obj_Level5.yy",},"order":11,},
+    {"id":{"name":"column_check","path":"scripts/column_check/column_check.yy",},"order":2,},
+    {"id":{"name":"spr_column","path":"sprites/spr_column/spr_column.yy",},"order":6,},
     {"id":{"name":"load_chamber","path":"scripts/load_chamber/load_chamber.yy",},"order":0,},
+    {"id":{"name":"obj_column","path":"objects/obj_column/obj_column.yy",},"order":10,},
     {"id":{"name":"save_chamber","path":"scripts/save_chamber/save_chamber.yy",},"order":1,},
     {"id":{"name":"LevelThree","path":"rooms/LevelThree/LevelThree.yy",},"order":0,},
   ],
@@ -43,6 +48,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"LevelFive","path":"rooms/LevelFive/LevelFive.yy",},},
     {"roomId":{"name":"LevelFour","path":"rooms/LevelFour/LevelFour.yy",},},
     {"roomId":{"name":"LevelOne","path":"rooms/LevelOne/LevelOne.yy",},},
     {"roomId":{"name":"LevelTwo","path":"rooms/LevelTwo/LevelTwo.yy",},},
