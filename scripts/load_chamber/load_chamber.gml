@@ -19,7 +19,7 @@ function load_chamber(id, side){
 								instance_destroy();
 							}
 						}
-						var wire = instance_position(j, i + id * 10 * 32, obj_block);
+						var wire = instance_position(j, i + id * 10 * 32, obj_wire);
 						if (wire != noone) {
 							var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "Instances", wire.object_index);
 							o.current = wire.current;
