@@ -3,7 +3,7 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":640,"yport":320,"wport":640,"hport":320,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -377,8 +377,8 @@
     {"name":"inst_50DA7995","path":"rooms/LevelTwo/LevelTwo.yy",},
     {"name":"inst_2E642618","path":"rooms/LevelTwo/LevelTwo.yy",},
     {"name":"inst_22BF3E7","path":"rooms/LevelTwo/LevelTwo.yy",},
-    {"name":"inst_17EBBE9B","path":"rooms/LevelTwo/LevelTwo.yy",},
     {"name":"inst_435C40D5","path":"rooms/LevelTwo/LevelTwo.yy",},
+    {"name":"inst_17EBBE9B","path":"rooms/LevelTwo/LevelTwo.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
