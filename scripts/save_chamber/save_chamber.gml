@@ -51,5 +51,6 @@ function save_chamber(id, side){
 		
 		}
 	}
+	column_restore(id, side);
 	
 }
