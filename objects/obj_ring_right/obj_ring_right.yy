@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_portal",
-    "path": "sprites/spr_portal/spr_portal.yy",
+    "name": "spr_ring_flip",
+    "path": "sprites/spr_ring_flip/spr_ring_flip.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_portal",
+  "name": "obj_ring_right",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ring",
+  "name": "obj_ring_left",
   "tags": [],
   "resourceType": "GMObject",
 }
