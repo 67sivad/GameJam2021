@@ -30,7 +30,7 @@ if (orientation == "up") {
 		x = doorx + (8 * 32);
 		y = doory;
 	}
-} else {
+} else if (orientation == "right") {
 	var doorx = x;
 	var doory = y;
 	with (other) {

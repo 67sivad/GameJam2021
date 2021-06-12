@@ -38,7 +38,13 @@ function load_chamber(id, side){
 						var inst = instance_position(global.rightChamberX + j, global.rightChamberY + i, all);
 						}
 						if (inst != noone and inst.object_index != obj_Player) {
-						instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "Instances", inst.object_index);
+						var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "Instances", inst.object_index);
+						if (object_get_name(inst.object_index) == "obj_door") {
+							o.destination = inst.destination;
+							o.orientation = inst.orientation;
+							o.sprite_index = inst.sprite_index;
+							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
+						}
 						}
 					}
 				}
@@ -78,7 +84,13 @@ function load_chamber(id, side){
 						var inst = instance_position(global.leftChamberX + j, global.leftChamberY + i, all);
 						}
 						if (inst != noone and inst.object_index != obj_Player) {
-						instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "Instances", inst.object_index);
+						var o = instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "Instances", inst.object_index);
+						if (object_get_name(inst.object_index) == "obj_door") {
+							o.destination = inst.destination;
+							o.orientation = inst.orientation;
+							o.sprite_index = inst.sprite_index;
+							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
+						}
 						}
 					}
 			}

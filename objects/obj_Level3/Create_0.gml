@@ -8,11 +8,11 @@ global.rightChamberY = 320;
 global.leftChamberId = -2;
 global.rightChamberId = -1;
 
-startRightChamber = 0;
-startLeftChamber = 1;
+startRightChamber = 2;
+startLeftChamber = 0;
 
-winConditionRight = 5;
-winConditionLeft = 5;
+winConditionRight = 1;
+winConditionLeft = 3;
 
 
 
