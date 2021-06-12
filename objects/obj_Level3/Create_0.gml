@@ -8,7 +8,7 @@ startLeftChamber = 0;
 winConditionRight = 1;
 winConditionLeft = 3;
 
-
+win=false;
 
 
 load_chamber(startRightChamber, 1);
