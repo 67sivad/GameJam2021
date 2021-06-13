@@ -25,9 +25,9 @@
   "gridY": 32,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"f1ff5710-f50c-4af9-8625-fd300af6c65d","path":"sprites/spr_portal/spr_portal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f1ff5710-f50c-4af9-8625-fd300af6c65d","path":"sprites/spr_portal/spr_portal.yy",},"LayerId":{"name":"445eec36-5f74-488d-aeb9-01467d8db299","path":"sprites/spr_portal/spr_portal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f1ff5710-f50c-4af9-8625-fd300af6c65d","path":"sprites/spr_portal/spr_portal.yy",},"LayerId":{"name":"8d99e1ef-5c7c-4dd7-a5a5-1d4ca1c51901","path":"sprites/spr_portal/spr_portal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f1ff5710-f50c-4af9-8625-fd300af6c65d","path":"sprites/spr_portal/spr_portal.yy",},"LayerId":{"name":"3dac67fd-7248-4c42-83a1-89ecb49a4471","path":"sprites/spr_portal/spr_portal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"f1ff5710-f50c-4af9-8625-fd300af6c65d","path":"sprites/spr_portal/spr_portal.yy",},"LayerId":{"name":"445eec36-5f74-488d-aeb9-01467d8db299","path":"sprites/spr_portal/spr_portal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_portal","path":"sprites/spr_portal/spr_portal.yy",},"resourceVersion":"1.0","name":"f1ff5710-f50c-4af9-8625-fd300af6c65d","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"ff04dad0-3f62-4674-8110-04adb0c3f778","path":"sprites/spr_portal/spr_portal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"ff04dad0-3f62-4674-8110-04adb0c3f778","path":"sprites/spr_portal/spr_portal.yy",},"LayerId":{"name":"445eec36-5f74-488d-aeb9-01467d8db299","path":"sprites/spr_portal/spr_portal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
