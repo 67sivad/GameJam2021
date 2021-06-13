@@ -5,4 +5,5 @@ if (global.win) {
 	if (sprite_index == spr_door_vert) {
 		instance_create_layer(x, y + 32, "Player_Layer", obj_wall);
 	}
+	instance_destroy();
 }
