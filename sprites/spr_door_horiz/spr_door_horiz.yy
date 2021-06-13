@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 8,
+  "gridY": 8,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"1de49156-3578-4b16-9370-1cb4465d8d84","path":"sprites/spr_door_horiz/spr_door_horiz.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"1de49156-3578-4b16-9370-1cb4465d8d84","path":"sprites/spr_door_horiz/spr_door_horiz.yy",},"LayerId":{"name":"f49a8a4d-22ce-47ea-8ad3-db35b0562625","path":"sprites/spr_door_horiz/spr_door_horiz.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
