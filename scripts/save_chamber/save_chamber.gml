@@ -12,7 +12,7 @@ function save_chamber(id, side){
 				for(var j = 0; j < 32 * 10; j += 32) {
 					var block = instance_position(global.leftChamberX + j, global.leftChamberY + i, obj_block);
 						if (block != noone) {
-							var o = instance_create_layer(j, i + id * 10 * 32, "Player_Layer", block.object_index);
+							var o = instance_create_layer(j, i + id * 10 * 32, "WiresAndBoxes", block.object_index);
 							with(block) {
 								instance_destroy();
 							}
@@ -20,7 +20,7 @@ function save_chamber(id, side){
 						
 						var wire = instance_position(global.leftChamberX + j, global.leftChamberY + i, obj_wire);
 						if (wire != noone) {
-							var o = instance_create_layer(j, i + id * 10 * 32, "Player_Layer", wire.object_index);
+							var o = instance_create_layer(j, i + id * 10 * 32, "WiresAndBoxes", wire.object_index);
 							o.current = wire.current;
 							with(wire) {
 								instance_destroy();
@@ -58,14 +58,14 @@ function save_chamber(id, side){
 			for(var j = 32; j < 32 * 11; j += 32) {
 				var block = instance_position(global.rightChamberX + j, global.rightChamberY + i, obj_block);
 						if (block != noone) {
-							var o = instance_create_layer(j, i + id * 10 * 32, "Player_Layer", block.object_index);
+							var o = instance_create_layer(j, i + id * 10 * 32, "WiresAndBoxes", block.object_index);
 							with(block) {
 								instance_destroy();
 							}
 						}
 						var wire = instance_position(global.rightChamberX + j, global.rightChamberY + i, obj_wire);
 						if (wire != noone) {
-							var o = instance_create_layer(j, i + id * 10 * 32, "Player_Layer", wire.object_index);
+							var o = instance_create_layer(j, i + id * 10 * 32, "WiresAndBoxes", wire.object_index);
 							o.current = wire.current;
 							with(wire) {
 								instance_destroy();
