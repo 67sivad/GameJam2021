@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_wire_unlit",
-    "path": "sprites/spr_wire_unlit/spr_wire_unlit.yy",
+    "name": "spr_wire_lit",
+    "path": "sprites/spr_wire_lit/spr_wire_lit.yy",
   },
   "solid": false,
   "visible": true,
