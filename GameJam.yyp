@@ -13,6 +13,7 @@
     {"id":{"name":"spr_wire_unlit","path":"sprites/spr_wire_unlit/spr_wire_unlit.yy",},"order":7,},
     {"id":{"name":"LevelTen","path":"rooms/LevelTen/LevelTen.yy",},"order":8,},
     {"id":{"name":"LevelSeven","path":"rooms/LevelSeven/LevelSeven.yy",},"order":11,},
+    {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},"order":15,},
     {"id":{"name":"spr_door_horiz","path":"sprites/spr_door_horiz/spr_door_horiz.yy",},"order":4,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":3,},
     {"id":{"name":"LevelFour","path":"rooms/LevelFour/LevelFour.yy",},"order":5,},
