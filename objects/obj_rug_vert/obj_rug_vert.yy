@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_rug",
-    "path": "sprites/spr_rug/spr_rug.yy",
+    "name": "spr_rug_vert",
+    "path": "sprites/spr_rug_vert/spr_rug_vert.yy",
   },
   "solid": false,
   "visible": true,
