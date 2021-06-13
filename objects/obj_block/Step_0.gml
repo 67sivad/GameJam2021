@@ -1,5 +1,5 @@
 
-close=place_meeting(x-5,y , obj_Player)or place_meeting(x+5,y , obj_Player) or place_meeting(x,y-5 , obj_Player) or place_meeting(x,y+5 , obj_Player)
+close=place_meeting(x-10,y , obj_Player)or place_meeting(x+10,y , obj_Player) or place_meeting(x,y-10 , obj_Player) or place_meeting(x,y+10 , obj_Player)
 
 
 
