@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_ring","path":"sprites/spr_ring/spr_ring.yy",},"order":11,},
+    {"id":{"name":"spr_reset_text","path":"sprites/spr_reset_text/spr_reset_text.yy",},"order":18,},
     {"id":{"name":"obj_Level2","path":"objects/obj_Level2/obj_Level2.yy",},"order":7,},
     {"id":{"name":"endScreen","path":"rooms/endScreen/endScreen.yy",},"order":14,},
     {"id":{"name":"obj_portal","path":"objects/obj_portal/obj_portal.yy",},"order":14,},
@@ -8,6 +9,7 @@
     {"id":{"name":"LevelFive","path":"rooms/LevelFive/LevelFive.yy",},"order":6,},
     {"id":{"name":"spr_block_text","path":"sprites/spr_block_text/spr_block_text.yy",},"order":17,},
     {"id":{"name":"LevelEight","path":"rooms/LevelEight/LevelEight.yy",},"order":9,},
+    {"id":{"name":"obj_reset_text","path":"objects/obj_reset_text/obj_reset_text.yy",},"order":19,},
     {"id":{"name":"obj_rug_horz","path":"objects/obj_rug_horz/obj_rug_horz.yy",},"order":15,},
     {"id":{"name":"spr_line","path":"sprites/spr_line/spr_line.yy",},"order":14,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":3,},
