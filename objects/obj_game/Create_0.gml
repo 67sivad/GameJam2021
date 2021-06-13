@@ -9,4 +9,6 @@ global.rightChamberY = 320;
 global.leftChamberId = -2;
 global.rightChamberId = -1;
 
+global.win = false;
+
 draw_set_font(fnt_text);
