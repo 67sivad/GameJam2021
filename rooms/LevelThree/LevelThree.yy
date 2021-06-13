@@ -147,7 +147,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.291855,"y":928.0,"resourceVersion":"1.0","name":"inst_37B3E3AA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.291855,"y":960.0,"resourceVersion":"1.0","name":"inst_BA1F31","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.291855,"y":640.0,"resourceVersion":"1.0","name":"inst_203989C8","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":480.0,"resourceVersion":"1.0","name":"inst_57D7E17D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":0.0,"resourceVersion":"1.0","name":"inst_3D71BCA8","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"sprite_index","path":"objects/obj_door/obj_door.yy",},"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"value":"spr_door_vert","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -1057,7 +1056,6 @@
     {"name":"inst_37B3E3AA","path":"rooms/LevelThree/LevelThree.yy",},
     {"name":"inst_BA1F31","path":"rooms/LevelThree/LevelThree.yy",},
     {"name":"inst_203989C8","path":"rooms/LevelThree/LevelThree.yy",},
-    {"name":"inst_57D7E17D","path":"rooms/LevelThree/LevelThree.yy",},
     {"name":"inst_3D71BCA8","path":"rooms/LevelThree/LevelThree.yy",},
     {"name":"inst_30913F6D","path":"rooms/LevelThree/LevelThree.yy",},
     {"name":"inst_25B85938","path":"rooms/LevelThree/LevelThree.yy",},

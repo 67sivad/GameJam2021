@@ -14,14 +14,14 @@ function load_chamber(id, side){
 						
 						var block = instance_position(j, i + id * 10 * 32, obj_block);
 						if (block != noone) {
-							var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "Instances", block.object_index);
+							var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "WiresAndBoxes", block.object_index);
 							with(block) {
 								instance_destroy();
 							}
 						}
 						var wire = instance_position(j, i + id * 10 * 32, obj_wire);
 						if (wire != noone) {
-							var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "Instances", wire.object_index);
+							var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "WiresAndBoxes", wire.object_index);
 							o.current = wire.current;
 							with(wire) {
 								instance_destroy();
@@ -65,14 +65,14 @@ function load_chamber(id, side){
 						} else {
 							block = instance_position(global.rightChamberX + j, global.rightChamberY + i, obj_block);
 							if (block != noone) {
-								var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "Instances", block.object_index);
+								var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "WiresAndBoxes", block.object_index);
 								with(block) {
 									instance_destroy();
 								}
 							}
 							wire = instance_position(global.rightChamberX + j, global.rightChamberY + i, obj_wire);
 							if (wire != noone) {
-								var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "Instances", wire.object_index);
+								var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "WiresAndBoxes", wire.object_index);
 								o.current = wire.current;
 								with(wire) {
 									instance_destroy();
@@ -97,10 +97,10 @@ function load_chamber(id, side){
 						
 						}
 						if (block != noone) {
-						var o = instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "Instances", block.object_index);
+						var o = instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "WiresAndBoxes", block.object_index);
 						}
 						if (wire != noone) {
-						var o = instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "Instances", wire.object_index);
+						var o = instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "WiresAndBoxes", wire.object_index);
 						o.current = wire.current;
 						}
 					}
@@ -116,14 +116,14 @@ function load_chamber(id, side){
 				if (global.leftChamberId != global.rightChamberId) {
 					var block = instance_position(j, i + id * 10 * 32, obj_block);
 						if (block != noone) {
-							var o = instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "Instances", block.object_index);
+							var o = instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "WiresAndBoxes", block.object_index);
 							with(block) {
 								instance_destroy();
 							}
 						}
 						var wire = instance_position(j, i + id * 10 * 32, obj_wire);
 						if (wire != noone) {
-							var o = instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "Instances", wire.object_index);
+							var o = instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "WiresAndBoxes", wire.object_index);
 							o.current = wire.current;
 							with(wire) {
 								instance_destroy();
@@ -167,14 +167,14 @@ function load_chamber(id, side){
 						} else {
 							block = instance_position(global.leftChamberX + j, global.rightChamberId + i, obj_block);
 							if (block != noone) {
-								var o = instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "Instances", block.object_index);
+								var o = instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "WiresAndBoxes", block.object_index);
 								with(block) {
 									instance_destroy();
 								}
 							}
 							wire = instance_position(global.leftChamberX + j, global.rightChamberId + i, obj_wire);
 							if (wire != noone) {
-								var o = instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "Instances", wire.object_index);
+								var o = instance_create_layer(global.rightChamberX + j, global.rightChamberY + i, "WiresAndBoxes", wire.object_index);
 								o.current = wire.current;
 								with(wire) {
 									instance_destroy();
@@ -200,10 +200,10 @@ function load_chamber(id, side){
 						
 						}
 						if block != noone {
-						var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "Instances", block.object_index);
+						var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "WiresAndBoxes", block.object_index);
 					}
 					if wire != noone {
-						var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "Instances", wire.object_index);
+						var o = instance_create_layer(global.leftChamberX + j, global.leftChamberY + i, "WiresAndBoxes", wire.object_index);
 						o.current = wire.current;
 					}
 				}
