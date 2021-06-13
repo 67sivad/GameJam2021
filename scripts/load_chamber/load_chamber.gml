@@ -41,7 +41,7 @@ function load_chamber(id, side){
 							o.orientation = inst.orientation;
 							o.sprite_index = inst.sprite_index;
 							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
-						}else if(object_get_name(inst.object_index) == "obj_floor"){
+						}else{
 							o.image_index=inst.image_index;
 						}
 						if (inst.object_index == obj_wire or inst.object_index == obj_button or inst.object_index == obj_wall_trigger) {
@@ -86,8 +86,8 @@ function load_chamber(id, side){
 							o.destination = inst.destination;
 							o.orientation = inst.orientation;
 							o.sprite_index = inst.sprite_index;
-							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
-						}else if(object_get_name(inst.object_index) == "obj_floor"){
+							//show_debug_message(o.orientation+"5 "+string(o.destination)+" "+string(o.sprite_index)); 
+						}else{
 							o.image_index=inst.image_index;
 						}
 						if (inst.object_index == obj_wire or inst.object_index == obj_button or inst.object_index == obj_wall_trigger) {
@@ -141,7 +141,7 @@ function load_chamber(id, side){
 							o.orientation = inst.orientation;
 							o.sprite_index = inst.sprite_index;
 							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
-						}else if(object_get_name(inst.object_index) == "obj_floor"){
+						}else{
 							o.image_index=inst.image_index;
 						}
 						if (inst.object_index == obj_wire or inst.object_index == obj_button or inst.object_index == obj_wall_trigger) {
@@ -190,7 +190,7 @@ function load_chamber(id, side){
 							o.orientation = inst.orientation;
 							o.sprite_index = inst.sprite_index;
 							//show_debug_message(o.orientation+" "+string(o.destination)+" "+string(o.sprite_index)); 
-						}else if(object_get_name(inst.object_index) == "obj_floor"){
+						}else{
 							o.image_index=inst.image_index;
 						}
 						if (inst.object_index == obj_wire or inst.object_index == obj_button or inst.object_index == obj_wall_trigger) {
