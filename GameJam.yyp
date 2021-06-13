@@ -8,7 +8,6 @@
     {"id":{"name":"LevelEight","path":"rooms/LevelEight/LevelEight.yy",},"order":9,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":3,},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},"order":6,},
-    {"id":{"name":"spr_wire_unlit","path":"sprites/spr_wire_unlit/spr_wire_unlit.yy",},"order":7,},
     {"id":{"name":"LevelTen","path":"rooms/LevelTen/LevelTen.yy",},"order":8,},
     {"id":{"name":"LevelSeven","path":"rooms/LevelSeven/LevelSeven.yy",},"order":11,},
     {"id":{"name":"spr_door_horiz","path":"sprites/spr_door_horiz/spr_door_horiz.yy",},"order":4,},
@@ -32,6 +31,7 @@
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"order":10,},
     {"id":{"name":"obj_Level4","path":"objects/obj_Level4/obj_Level4.yy",},"order":9,},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":2,},
+    {"id":{"name":"spr_wire_unlit","path":"sprites/spr_wire_unlit/spr_wire_unlit.yy",},"order":13,},
     {"id":{"name":"obj_wall_trigger","path":"objects/obj_wall_trigger/obj_wall_trigger.yy",},"order":12,},
     {"id":{"name":"LevelNine","path":"rooms/LevelNine/LevelNine.yy",},"order":10,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":3,},
@@ -70,7 +70,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"LevelTen","path":"rooms/LevelTen/LevelTen.yy",},},
     {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"roomId":{"name":"LevelOne","path":"rooms/LevelOne/LevelOne.yy",},},
     {"roomId":{"name":"LevelTwo","path":"rooms/LevelTwo/LevelTwo.yy",},},
@@ -81,6 +80,7 @@
     {"roomId":{"name":"LevelSeven","path":"rooms/LevelSeven/LevelSeven.yy",},},
     {"roomId":{"name":"LevelEight","path":"rooms/LevelEight/LevelEight.yy",},},
     {"roomId":{"name":"LevelNine","path":"rooms/LevelNine/LevelNine.yy",},},
+    {"roomId":{"name":"LevelTen","path":"rooms/LevelTen/LevelTen.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
