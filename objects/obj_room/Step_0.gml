@@ -6,8 +6,8 @@ if (keyboard_check_pressed(ord("R"))) {
 }
 
 if (global.leftChamberId == winConditionLeft && global.rightChamberId = winConditionRight) {
-	if(!win){
+	if(!global.win){
 		instance_create_layer(global.rightChamberX - 32, global.leftChamberY + 3 * 32, "Player_Layer", obj_portal);
-		win=true;
+		global.win=true;
 	}
 }

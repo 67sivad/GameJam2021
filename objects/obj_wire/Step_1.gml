@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 wires = ds_list_create();
-len = collision_circle_list(x, y, 32, all, false, true, wires, false);
+len = collision_circle_list(x + 16, y + 16, 32, all, false, true, wires, false);
 
 active = false;
 sprite_index = spr_wire_lit;
