@@ -33,27 +33,27 @@ function column_check(side, copy){
 	} else {
 		if (instance_position(global.rightChamberX + 1*32, global.rightChamberY + 3*32, obj_column) != noone) {
 			if (copy) {
-				var door = instance_position(global.rightChamberX + 9*32, global.rightChamberY + 4*32, obj_door)
+				var door = instance_position(global.rightChamberX + 10*32, global.rightChamberY + 4*32, obj_door)
 			} else {
-				var door = instance_position(9*32, global.leftChamberId*10*32 + 4*32, obj_door);
+				var door = instance_position(10*32, global.leftChamberId*10*32 + 4*32, obj_door);
 			}
 			if (door == noone) {
-				with (instance_position(global.rightChamberX + 0*32, global.leftChamberY + 4*32, all)) {
+				with (instance_position(global.rightChamberX + 1*32, global.rightChamberY + 4*32, all)) {
 					instance_destroy()
 				}
-				with (instance_position(global.rightChamberX + 0*32, global.leftChamberY + 5*32, all)) {
+				with (instance_position(global.rightChamberX + 1*32, global.rightChamberY + 5*32, all)) {
 					instance_destroy()
 				}
-				instance_create_layer(global.rightChamberX + 0*32, global.leftChamberY + 4*32, "Instances", obj_column);
-				instance_create_layer(global.rightChamberX + 0*32, global.leftChamberY + 5*32, "Instances", obj_column);
+				instance_create_layer(global.rightChamberX + 1*32, global.rightChamberY + 4*32, "Instances", obj_column);
+				instance_create_layer(global.rightChamberX + 1*32, global.rightChamberY + 5*32, "Instances", obj_column);
 			} else {
-				with (instance_position(global.rightChamberX + 0*32, global.rightChamberY + 4*32, all)) {
+				with (instance_position(global.rightChamberX + 1*32, global.rightChamberY + 4*32, all)) {
 					instance_destroy()
 				}
-				with (instance_position(global.rightChamberX + 0*32, global.leftChamberY + 5*32, all)) {
+				with (instance_position(global.rightChamberX + 1*32, global.rightChamberY + 5*32, all)) {
 					instance_destroy()
 				}
-				var o = instance_create_layer(global.rightChamberX + 0*32, global.leftChamberY + 4*32, "Instances", obj_door);
+				var o = instance_create_layer(global.rightChamberX + 1*32, global.rightChamberY + 4*32, "Instances", obj_door);
 				o.destination = door.destination;
 				o.orientation = door.orientation;
 				o.sprite_index = door.sprite_index;
