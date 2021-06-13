@@ -7,6 +7,12 @@ function save_chamber(id, side){
 	//if (global.leftChamberId == global.rightChamberId) {return;}
 	
 	if (side < 0) {
+		for(i = 0; i < 10 * 32; i += 32) {
+				for(var j = 0; j < 32 * 10; j += 32) {
+					position_destroy(j, i + id * 10 * 32);
+				
+				}
+		}
 		
 			for(i = 0; i < 10 * 32; i += 32) {
 				for(var j = 0; j < 32 * 10; j += 32) {
@@ -54,6 +60,11 @@ function save_chamber(id, side){
 			}
 
 	} else {
+		for(i = 0; i < 10 * 32; i += 32) {
+			for(var j = 32; j < 32 * 11; j += 32) {
+				position_destroy(j, i + id * 10 * 32);
+			}
+		}
 		for(i = 0; i < 10 * 32; i += 32) {
 			for(var j = 32; j < 32 * 11; j += 32) {
 				var block = instance_position(global.rightChamberX + j, global.rightChamberY + i, obj_block);
