@@ -5,7 +5,13 @@ with(other) {
 	instance_destroy()
 }
 
-if (x < 928) {
+if (x == global.leftChamberX + 9 * 32 and y == global.leftChamberY + 4 *32) {
+	save_chamber(global.rightChamberId, 1);
+	load_chamber(destination, 1);
+} else if (x == global.rightChamberX +1 * 32 and y = global.rightChamberY + 4 * 32) {
+	save_chamber(global.leftChamberId, -1);
+	load_chamber(destination, -1);
+} else if (x < 960) {
 	save_chamber(global.leftChamberId, -1);
 	load_chamber(destination, -1);
 } else {
