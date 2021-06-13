@@ -74,9 +74,9 @@
     {"roomId":{"name":"LevelFour","path":"rooms/LevelFour/LevelFour.yy",},},
     {"roomId":{"name":"LevelFive","path":"rooms/LevelFive/LevelFive.yy",},},
     {"roomId":{"name":"LevelSix","path":"rooms/LevelSix/LevelSix.yy",},},
+    {"roomId":{"name":"LevelEight","path":"rooms/LevelEight/LevelEight.yy",},},
     {"roomId":{"name":"LevelTen","path":"rooms/LevelTen/LevelTen.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"roomId":{"name":"LevelEight","path":"rooms/LevelEight/LevelEight.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
