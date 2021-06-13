@@ -9,4 +9,4 @@ global.rightChamberId = -1;
 load_chamber(startRightChamber, 1);
 load_chamber(startLeftChamber, -1);
 
-win=false;
+global.win=false;
