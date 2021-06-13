@@ -5,6 +5,7 @@
     {"id":{"name":"obj_portal","path":"objects/obj_portal/obj_portal.yy",},"order":14,},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},"order":0,},
     {"id":{"name":"LevelFive","path":"rooms/LevelFive/LevelFive.yy",},"order":6,},
+    {"id":{"name":"LevelEight","path":"rooms/LevelEight/LevelEight.yy",},"order":9,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":3,},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},"order":6,},
     {"id":{"name":"spr_wire_unlit","path":"sprites/spr_wire_unlit/spr_wire_unlit.yy",},"order":7,},
@@ -75,6 +76,7 @@
     {"roomId":{"name":"LevelSix","path":"rooms/LevelSix/LevelSix.yy",},},
     {"roomId":{"name":"LevelTen","path":"rooms/LevelTen/LevelTen.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"LevelEight","path":"rooms/LevelEight/LevelEight.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
