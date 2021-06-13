@@ -21,6 +21,7 @@
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},"order":9,},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},"order":6,},
     {"id":{"name":"obj_Level6","path":"objects/obj_Level6/obj_Level6.yy",},"order":13,},
+    {"id":{"name":"spr_rug","path":"sprites/spr_rug/spr_rug.yy",},"order":12,},
     {"id":{"name":"obj_Room2","path":"objects/obj_Room2/obj_Room2.yy",},"order":1,},
     {"id":{"name":"obj_ring","path":"objects/obj_ring/obj_ring.yy",},"order":14,},
     {"id":{"name":"obj_Level3","path":"objects/obj_Level3/obj_Level3.yy",},"order":2,},
