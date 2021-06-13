@@ -1,4 +1,16 @@
 
+close=place_meeting(x-10,y , obj_block)or place_meeting(x+10,y , obj_block) or place_meeting(x,y-10 , obj_block) or place_meeting(x,y+10 , obj_block)
+
+if(close and keyboard_check(vk_space)){
+	global.walk_speed=3;
+}
+else{
+	global.walk_speed=5;
+	
+}
+
+
+
 if(keyboard_check(ord("A"))){
 	if !place_meeting(x - global.walk_speed, y, obj_wall) and !place_meeting(x - global.walk_speed, y, obj_block) and !place_meeting(x - global.walk_speed, y, obj_column) and (instance_place(x - global.walk_speed, y, obj_wall_trigger) == noone or instance_place(x - global.walk_speed, y, obj_wall_trigger).active) {
 		x -=global.walk_speed;
